@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    border: 8px groove greenyellow;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.class{
+    border: 6px solid red;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+}
+.main{
+    display: flex;
+    justify-content:center;
+}
+
+.class1{
+    height: 70px;
+    width: 240px;
+}
+.class2{
+    height: 30px;
+    width: 250px;
+}
+
+.class3{
+    width: 240px;
+}
+
+.circle{
+    border: 5px solid grey;
+    background-color: #20B2AA;
+    color: black;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 200px;
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.text{
+    padding-top: 95px
+}
+
+.form{
+    border: 6px dashed red;
+    font-size: medium;
+    text-align: center;
+    width: 350px;
+    height: 600px;
+    margin-top: 50px;
+    color: rgb(224, 79, 79);
+    background-color: white;
+}
+
+.class4{
+    height: 30px;
+    width: 300px;
+    margin-left: 40%;
+    font-size: 25px;
+   
+}
+
+.parent{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.list{
+    border: 2px solid darkgreen;
+    background-color: rgb(37, 226, 226);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    color: rgb(4, 4, 102);
+
+
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   
+}
